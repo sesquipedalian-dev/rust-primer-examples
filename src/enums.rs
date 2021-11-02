@@ -20,7 +20,7 @@ pub fn enums() {
 }
 
 #[derive(Debug)]
-enum Temperature {
+pub enum Temperature {
     Fahrenheit(u32),
     Celsius(u32),
     Kelvin(u32)
